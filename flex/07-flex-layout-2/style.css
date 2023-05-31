@@ -4,6 +4,20 @@ body {
   min-height: 100vh;
 }
 
+.main-wrapper {
+  display:flex;
+  height:100vh;
+  flex-direction: column;
+
+}
+
+.content-wrapper {
+  display:flex;
+  flex:1;
+
+
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -14,6 +28,9 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
