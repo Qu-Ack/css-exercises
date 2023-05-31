@@ -28,6 +28,7 @@ body {
 .footer {
   display:flex;
   justify-content: space-between;
+  background-color: #eee;
 }
 
 
