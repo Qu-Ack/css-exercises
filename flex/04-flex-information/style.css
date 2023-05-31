@@ -5,6 +5,7 @@ body {
   display:flex; 
   padding:32px;
   justify-content: center;
+  gap:52px;
   
 }
 
