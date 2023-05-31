@@ -14,6 +14,22 @@ body {
   justify-content: space-between;
 
 }
+.header {
+  display:flex;
+  justify-content:space-between;
+  border-bottom: 0.25px dotted rgb(230, 236, 238);
+}
+.content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display:flex;
+  justify-content: space-between;
+}
+
 
 img {
   width: 600px;
@@ -24,6 +40,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding:12px;
 }
 
 input {
@@ -32,4 +49,18 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+ul {
+  list-style: none;
+  display:flex;
+  padding:8px;
+  gap:16px;
+  margin-left: 6px;
+  margin-right:6px;
+}
+
+
+a {
+  text-decoration: none;
+  color:rgb(57, 56, 56);
 }
